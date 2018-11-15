@@ -1,5 +1,8 @@
 from Bio.Blast import NCBIWWW
 from Bio import SeqIO
+import os
+"""this type of function does a blast with the sequence. The output for this function will give a fasfa file, because when inputted it must be in fa format."""
+
 
 def sequence_blaster(fasta_path, results_path):
   #check that the file is in fasta format
